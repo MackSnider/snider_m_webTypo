@@ -106,4 +106,72 @@
 	line-height: 25px;
 	float: right;
 	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.beer img
+{
+	height: 50%;
+	width: 50%;
+	float: right;
+}
+
+.beer p
+{
+	font-family: coolveticaregular;
+	line-height: 25px;
+}
+
+.drinkTable
+{
+	margin-top: 200px;
+}
+
+.drinkTable h2
+{
+	font-family: alien_leagueregular;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 75px;
+	color: #000080;
+}
+
+.drinkTable img
+{
+	height: 60%;
+	width: 60%;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-bottom: 50px;
+}
+
+.drinkTable p
+{
+	font-family: coolveticaregular;
+	line-height: 25px;
+}
+
+.conclusions h2
+{
+	font-family: alien_leagueregular;
+	text-align: left;
+	font-size: 40px;
+	margin-top: 75px;
+	margin-bottom: 75px;
+	color: #000080;
+}
+
+.conclusions img
+{
+	height: 50%;
+	width: 50%;
+	float: left;
+}
+
+.conclusions p
+{
+	float: none;
+	font-family: coolveticaregular;
+	line-height: 25px;
 }
