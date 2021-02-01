@@ -1,12 +1,109 @@
 @font-face {
-    font-family: 'indigo_regularregular';
-    src: url('../fonts/indigo_regular-webfont.woff2') format('woff2'),
-         url('../fonts/indigo_regular-webfont.woff') format('woff');
+    font-family: 'alien_leagueregular';
+    src: url('../fonts/alienleagueregular-9d3z-webfont.woff2') format('woff2'),
+         url('../fonts/alienleagueregular-9d3z-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'coolveticaregular';
+    src: url('../fonts/coolvetica_rg-webfont.woff2') format('woff2'),
+         url('../fonts/coolvetica_rg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 .hidden
 {
 	display: none;
+}
+
+#container
+{
+	width: 980px;
+	margin: 0 auto;
+}
+
+.drinkingGlass img
+{
+	width: 50%;
+	height: 50%;
+	float: left;
+	border-radius: 3px;
+}
+
+.drinkingGlass h2
+{
+	font-family: alien_leagueregular;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 50px;
+	margin-top: 50px;
+	color: #000080;
+}
+
+.drinkingGlass p
+{
+	float: none;
+	font-family: coolveticaregular;
+	line-height: 25px;
+	margin-top: 50px;
+	margin-left: 505px;
+	margin-top: 80px;
+	
+}
+
+.intro h2
+{
+	font-family: alien_leagueregular;
+	text-align: left;
+	font-size: 40px;
+	margin-bottom: 50px;
+	color: #000080;
+}
+
+.intro p
+{
+	font-family: coolveticaregular;
+	line-height: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.para2 p
+{
+	font-family: coolveticaregular;
+	line-height: 25px;
+	float: right;
+	margin-bottom: 50px;
+}
+
+.dispenser img
+{
+	width: 90%;
+	height: 90%;
+	border-radius: 3px;
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+.dispenser h2
+{
+	font-family: alien_leagueregular;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 50px;
+	color: #000080;
+}
+
+.dispenser p
+{
+	font-family: coolveticaregular;
+	line-height: 25px;
+	float: right;
+	margin-top: 25px;
 }
